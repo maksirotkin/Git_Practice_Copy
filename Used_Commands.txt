@@ -8,6 +8,15 @@ git commit -m
 git push
 git pull
 touch .gitignore
-echo "bin/" >> .gitignore
+echo "bin/" >> .gitignores
 git branch feature
 git checkout feature
+gitk&
+git commit --amend -m "Add arrows.txt feature"
+git log
+git merge feature
+ git tag session1
+git stash -m "Used_Commands stash 1"
+git rebase main
+git stash list
+git stash pop
