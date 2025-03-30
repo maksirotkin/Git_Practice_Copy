@@ -1,5 +1,4 @@
-.db
-.log
+*.db
 *.log
 target/
 bin/

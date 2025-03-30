@@ -1,0 +1,13 @@
+git clone
+cd Git_Practice
+git remote -v
+echo "What is love" >> song.txt
+ git status
+git add .
+git commit -m
+git push
+git pull
+touch .gitignore
+echo "bin/" >> .gitignore
+git branch feature
+git checkout feature
